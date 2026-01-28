@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
     <p>Current time: ${new Date().toLocaleString()}</p>
   `);
 });
+res.send("<h1>GREEN SLOT - Version 2</h1>");
+
 
 app.listen(port, () => {
   console.log(`Server is running → http://localhost:${port}`);
