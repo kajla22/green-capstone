@@ -52,4 +52,5 @@ jobs:
           app-name: 'team-1-nodeapp-prod'
           slot-name: 'green'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_645E6A9EF779441C802D0B6F8C3C2AAB }}
+
+        
